@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/letteratura"
+    tools:context=".QuizLetteratura">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hai selezionato l'argomento Letteratura!"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_risultato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_indietro"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:text="Torna Indietro" />
+
+            <Button
+                android:id="@+id/btn_inizia"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:insetBottom="10dp"
+                android:text="Inizia Test" />
+
+            <TextView
+                android:id="@+id/txt_primadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mary Shelley scrisse il noto romanzo 'Dracula'."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_secondadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="L'Osvaldo Soriano Football Club e' la nazionale di calcio degli scrittori italiani."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_terzadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gabriel Garcìa Màrquez ha vinto il premio Nobel per la letteratura nel 1982."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_quartadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Il 'Sentimento del Tempo' è suddiviso in otto capitoli."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_quintadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="Eugenio Montale non ricevette mai il premio Nobel per letteratura."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="189dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_risultato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ottieni risultato"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_rifai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rifai Test"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

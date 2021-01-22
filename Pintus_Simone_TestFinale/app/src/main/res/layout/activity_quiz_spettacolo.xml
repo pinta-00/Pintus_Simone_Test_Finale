@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spettacolo"
+    tools:context=".QuizSpettacolo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hai selezionato l'argomento Spettacolo!"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_risultato"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_indietro"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:text="Torna Indietro" />
+
+            <Button
+                android:id="@+id/btn_inizia"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:insetBottom="20dp"
+                android:text="Inizia Test" />
+
+            <TextView
+                android:id="@+id/txt_primadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nella serie Lost Sawyer è una ex rockstar, bassista e chitarrista dei DriveShaft"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_secondadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steven Spielberg appare come attore in 'The Blues Brothers'."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_terzadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'Toto' a colori' e' il primo film italiano a colori. "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_quartadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Il film 'Full Metal Jacket' venne ambientato in Indonesia."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_quintadomanda"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Quentin Tarantino ha diretto 'Pulp fiction'. "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_vero5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="VERO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_falso5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:insetBottom="10dp"
+                    android:text="FALSO"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="195dp"
+                android:layout_height="189dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_risultato"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Ottieni risultato"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_rifai"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:text="Rifai Test"
+                    android:visibility="invisible"
+                    tools:visibility="invisible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

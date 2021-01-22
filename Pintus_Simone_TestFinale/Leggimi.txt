@@ -1,0 +1,5 @@
+Il programma è stato sviluppato e testato solo con pixel 3a API 28.
+Non è garantito il funzionamento con altre versioni di API.
+
+
+
